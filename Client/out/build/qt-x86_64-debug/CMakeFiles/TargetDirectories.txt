@@ -1,4 +1,0 @@
-/home/dihnhuunam/Workspace/ChatApplication/Client/out/build/qt-x86_64-debug/CMakeFiles/Client.dir
-/home/dihnhuunam/Workspace/ChatApplication/Client/out/build/qt-x86_64-debug/CMakeFiles/edit_cache.dir
-/home/dihnhuunam/Workspace/ChatApplication/Client/out/build/qt-x86_64-debug/CMakeFiles/rebuild_cache.dir
-/home/dihnhuunam/Workspace/ChatApplication/Client/out/build/qt-x86_64-debug/CMakeFiles/Client_autogen.dir
