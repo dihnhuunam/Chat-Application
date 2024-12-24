@@ -1,0 +1,86 @@
+QWidget {
+    background-color: #F9F9F9; 
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333333; 
+}
+
+QLabel#lbName {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555555; 
+}
+
+QComboBox {
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #FFFFFF; 
+    color: #333333; 
+}
+QComboBox QAbstractItemView {
+    border: 1px solid #AAAAAA;
+    background-color: #FFFFFF;
+    selection-background-color: #D0EFFF; 
+    selection-color: #333333; 
+}
+
+QListWidget#lstMessages {
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+    background-color: #FFFFFF; 
+    color: #333333; 
+}
+QListWidget::item {
+    padding: 8px;
+}
+QListWidget::item:selected {
+    background-color: #D0EFFF; 
+    color: #333333; 
+}
+
+QLineEdit#lnMessage {
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #FFFFFF; 
+    color: #333333; 
+}
+QLineEdit:focus {
+    border: 1px solid #5D9CEC; 
+    outline: none;
+}
+
+QPushButton#btnSend {
+    background-color: #5D9CEC; 
+    color: #FFFFFF; 
+    border-radius: 4px;
+    padding: 8px 12px;
+    border: none;
+}
+QPushButton#btnSend:hover {
+    background-color: #4A8BCC; 
+}
+QPushButton#btnSend:pressed {
+    background-color: #3A6EA5; 
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #F0F0F0; 
+    width: 8px;
+    margin: 0px 0px 0px 0px;
+}
+QScrollBar::handle:vertical {
+    background: #AAAAAA; 
+    min-height: 20px;
+    border-radius: 4px;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QHBoxLayout, QVBoxLayout {
+    margin: 5px;
+    spacing: 10px;
+}

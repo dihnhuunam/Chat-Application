@@ -16,7 +16,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <layout class="QHBoxLayout" name="horizontalLayout">
+     <layout class="QHBoxLayout" name="hLayoutDisplay">
       <item>
        <widget class="QLabel" name="lbName">
         <property name="text">
@@ -33,7 +33,7 @@
      <widget class="QListWidget" name="lstMessages"/>
     </item>
     <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <layout class="QHBoxLayout" name="hLayoutInput">
       <item>
        <widget class="QLineEdit" name="lnMessage"/>
       </item>

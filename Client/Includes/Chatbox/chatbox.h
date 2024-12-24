@@ -8,6 +8,7 @@
 #include <QString>
 #include <QListWidgetItem>
 #include <QStringListModel>
+#include <QFile>
 
 QT_BEGIN_NAMESPACE
 namespace Ui
@@ -23,14 +24,18 @@ class Chatbox : public QMainWindow
 public:
     Chatbox(QWidget *parent = nullptr);
     ~Chatbox();
-    void handle_connection();
 
-private: 
+private:
     Ui::Chatbox *ui;
     QTcpSocket *TcpClient;
+
+    void setupStyles();
+    void initializeSocket();
+    void setupConnections();
 
 private slots:
     void on_btnSend_clicked();
     void read_data_from_socket();
 };
-#endif // CHATBOX_H
+#endif /* CHATBOX_H */
+

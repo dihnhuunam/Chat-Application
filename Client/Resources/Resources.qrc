@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Styles/Chatbox.qss</file>
+    </qresource>
+</RCC>
